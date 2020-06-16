@@ -1,0 +1,50 @@
+/* SMALL DEVICES */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .problem, .solution {
+    height: 35vh;
+    width: 100vw;
+  }
+}
+
+/* ORENTIATION SPECIFIC SMALL DEVICES PROPS */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .blue-gradient-background {
+    height: 65vh;
+    width: 100vw;
+    top:-20vh;
+    transform: skewY(-10deg);
+    transform-origin: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .blue-gradient-background {
+    height: 75vh;
+    width: 100vw;
+    top: -40vh;
+    transform: skewY(-10deg);
+    transform-origin: 100%;
+  }
+}
+
+/* LARGE DEVICES */
+@media screen and (min-width: 769px) {
+  .blue-gradient-background {
+    height: 100vh;
+    width: 70vw;
+    left:-20vw;
+    transform: skewX(-10deg);
+    transform-origin: 100%;
+  }
+
+  .problem, .solution {
+    height: 100vh;
+    width: 35vw;
+  }
+}

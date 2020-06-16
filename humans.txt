@@ -1,0 +1,12 @@
+/* TEAM */
+    Chef: Romuald Nave
+    Contact: romuald.nv [at] gmail [dot] com
+    Twitter: @romualdnave
+    Site: http://romualdnave.github.io
+    From: Lyon, France
+
+/* SITE */
+    Last update: 2020/06/04
+    Language: French
+    Doctype: HTML5
+    IDE: atom

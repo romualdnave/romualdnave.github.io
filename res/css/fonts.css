@@ -1,0 +1,17 @@
+@font-face {
+  font-family: FreeleticsTheSans;
+  src: url("../webfonts/FreeleticsTheSans.eot");
+  src: url("../webfonts/FreeleticsTheSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../webfonts/proximanova.eot");
+  src: url("../webfonts/proximanova.woff2") format("woff2");
+  src: url("../webfonts/proximanova.woff") format("woff");
+  src: url("../webfonts/proximanova.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

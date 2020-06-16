@@ -1,0 +1,70 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body {
+  background-image: url('../img/sand.png');
+  background-size: cover;
+  background-position: center;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+p {
+  font-family: ProximaNova, Arial;
+}
+
+h1 {
+  font-family: FreeleticsTheSans, Arial;
+}
+
+.body-overlay {
+  height: 100vh;
+  width: 100vw;
+}
+
+.links a {
+  color: white;
+  text-decoration:none;
+  transition: color 0.25s;
+}
+
+.links a:hover {
+  color: grey;
+}
+
+.blue-gradient-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #1976d2;
+  background:linear-gradient(145deg,#0d47a1,#42a5f5);
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem, .solution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.photo {
+  max-height: 30vh;
+  max-width: 30vh;
+  border-radius: 100%;
+}
